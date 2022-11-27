@@ -1,0 +1,66 @@
+/* <!-- 1 --> */
+body.monfont {
+    font-family: "Courier New", Courier, monospace
+  }
+  body {
+    color: rgb(255, 251, 251);
+    /* background-color: rgb(1, 255, 213); */
+    background: linear-gradient(0deg, #ff0762 0%, #00b3ff 92.3%, #5ed4cc 5%);
+  }
+  /* <!-- 2 --> */
+  .center {
+    text-align: center;
+  }
+  /* <!-- 3 --> */
+  .heading {
+    color: rgb(143, 0, 71);
+    text-align: center;
+    font-weight: bold;
+  }
+  /* <!-- 4 --> */
+  .strong {
+    color: rgb(58, 9, 9);
+    font-size: 150%;
+    font-weight: bold;
+  }
+  .unreadable {
+      color: rgb(81, 49, 49);
+      background-color: rgb(92, 176, 149);
+  }
+  .text {
+      text-align: justify;
+  }
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: -100;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  a {
+      color: rgb(70, 2, 58);
+      text-decoration: underline;
+  }
+/* <!-- 5 --> */
+  .newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    color: rgb(243, 158, 0)
+  }
+
+  .newspaper2 {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    color: rgb(250, 133, 23)
+  }
+
+  .newspaper_oriel {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    color: rgb(54, 0, 111)
+  }
